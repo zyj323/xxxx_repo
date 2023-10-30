@@ -7,17 +7,22 @@
     tools:context=".splash.SplashActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="人生苦短,\n             及时行乐"
+        android:text="人生苦短,\n              及时行乐"
         android:textSize="@dimen/dp_40"
-        android:textColor="#F44336"
+        android:textColor="@color/color_red"
+        android:gravity="center_horizontal"
         android:layout_marginTop="@dimen/px_700" />
 
     <TextView
+        android:id="@+id/year"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="我的网易云音乐"
-        />
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_40"
+        android:textColor="@color/year_color"
+        android:gravity="center_horizontal" />
+
 
 </RelativeLayout>
